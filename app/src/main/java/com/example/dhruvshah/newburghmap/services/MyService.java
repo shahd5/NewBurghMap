@@ -38,6 +38,7 @@ public class MyService extends IntentService {
             e.printStackTrace();
             return;
         }
+
 //        int firstIndex = response.indexOf('(');
 //        int lastIndex = response.lastIndexOf(')');
 //        String c = response.substring(firstIndex+1, lastIndex);
@@ -45,7 +46,6 @@ public class MyService extends IntentService {
 
 
         Gson gson = new Gson();
-
         DataItem[] dataItems = gson.fromJson(response,DataItem[].class);
 
 

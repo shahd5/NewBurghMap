@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     GoogleMap mMap;
     private boolean networkOK;
     private static final int ERROR_DIALOG_REQUEST = 9001;
-    private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
-    //private static final String JSON_URL = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT%20%27latitude%27%2C%20%27longitude%27%2C%20%27icon%27%2C%20%27group%27%2C%20%27name%27%2C%20%27address%27%2C%20%27phone%27%2C%20%27link%27%2C%20%27description%27%2C%20%27hours%27%20FROM%201Gi1ZodgPaB8z3jp22-m6NeABCwy379mAfdILb4Ks%20WHERE%20%27group%27%3D%27employment%27&key=AIzaSyAPtyWPhurnjmBL9B8XRZUCbeMJbDhfnXY&callback=jQuery112406408739767775731_1518223785774&_=1518223785785";
+    //private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
+    private static final String JSON_URL = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT%20%27latitude%27%2C%20%27longitude%27%2C%20%27icon%27%2C%20%27group%27%2C%20%27name%27%2C%20%27address%27%2C%20%27phone%27%2C%20%27link%27%2C%20%27description%27%2C%20%27hours%27%20FROM%201Gi1ZodgPaB8z3jp22-m6NeABCwy379mAfdILb4Ks%20WHERE%20%27group%27%3D%27employment%27&key=AIzaSyAPtyWPhurnjmBL9B8XRZUCbeMJbDhfnXY&callback=jQuery112406408739767775731_1518223785774&_=1518223785785";
 
 
     private BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
